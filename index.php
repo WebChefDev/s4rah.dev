@@ -13,7 +13,6 @@ body {
   justify-items: center;
   align-items: center;
   background: linear-gradient(45deg, black, #86006e);
-  background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
   color: white;
   font-family: "Courier New", Courier, monospace;
@@ -116,7 +115,7 @@ body {
     <div class="greeting">Hello and welcome to</div>
     <h1>s4rah.dev</h1>
     <div class="name">I'm Sarah</div>
-    <img src="srh.png" alt="Sarah's head" />
+    <img src="sarah500.png" alt="Sarah's head" />
 
     <ul>
       <li>Item 1</li>
