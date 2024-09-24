@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>s4rah.dev</title>
     <style>
-      body {
-        margin: 0;
-        height: 100vh;
-        display: grid;
-        grid-template-rows: auto 1fr;
-        justify-items: center;
-        align-items: center;
-        background: linear-gradient(45deg, black, #86006e);
-        background-size: 400% 400%;
-        animation: gradientAnimation 10s ease infinite;
-        color: white;
-        overflow: hidden;
-        font-family: "Courier New", Courier, monospace;
-        text-align: center;
-      }
+body {
+  margin: 0;
+  min-height: 100vh; 
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(45deg, black, #86006e);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  overflow: auto; 
+}
+
 
       @keyframes gradientAnimation {
         0% {
