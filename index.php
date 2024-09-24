@@ -114,7 +114,7 @@ body {
   <body>
     <div class="greeting">Hello and welcome to</div>
     <h1>s4rah.dev</h1>
-    <div class="name">I'm Sarah</div>
+    <div class="name">I'm Sarahh</div>
     <img src="sarah500.png" alt="Sarah's head" />
 
     <ul>
