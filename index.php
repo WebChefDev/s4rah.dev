@@ -12,7 +12,8 @@ body {
   grid-template-rows: auto 1fr;
   justify-items: center;
   align-items: center;
-  background: linear-gradient(45deg, black, #86006e);
+  background: linear-gradient(45deg, #f7339b, #3ecfcd);
+  background-size: 200% 200%; 
   animation: gradientAnimation 10s ease infinite;
   color: white;
   font-family: "Courier New", Courier, monospace;
@@ -21,17 +22,19 @@ body {
 }
 
 
-      @keyframes gradientAnimation {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
-      }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
       h1 {
         font-size: 3rem;
@@ -113,16 +116,16 @@ body {
   </head>
   <body>
     <div class="greeting">Hello and welcome to</div>
-    <h1>s4rah.dev</h1>
+    <h1>S4RAH.dev</h1>
     <div class="name">I'm Sarahh</div>
     <img src="sarah500.png" alt="Sarah's head" />
 
     <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-      <li>Item 5</li>
+      <li>Design & Development Serves</li>
+      <li>Ur new PFP!</li>
+      <li>Food Blog</li>
+      <li>Plumbing Services</li>
+      <li>My Desktop</li>
       <li>Item 6</li>
       <li>Item 7</li>
       <li>Item 8</li>
