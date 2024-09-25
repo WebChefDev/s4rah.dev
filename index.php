@@ -92,7 +92,7 @@ body {
       }
 
       li {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.5);
         padding: 20px;
         border-radius: 8px;
         transition: transform 0.3s;
@@ -100,7 +100,7 @@ body {
 
       li:hover {
         transform: scale(1.05); 
-        background: rgba(255, 255, 255, 0.469);
+        background: rgba(255, 255, 255, 0.8);
         color: black;
         font-weight: bold;
       }
@@ -114,6 +114,7 @@ body {
         border: 2px solid #00ff00;
         display: inline-block;
         margin-bottom: 20px;
+        border-radius: 12px;
       }
     </style>
   </head>
