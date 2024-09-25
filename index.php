@@ -112,11 +112,7 @@ li:hover img {
 
 .hover-image {
     display: none;
-    position: absolute; /* Align it relative to the parent <li> */
-    bottom: 100%; /* Position it above the link */
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 150px;
+    max-width: 200px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
