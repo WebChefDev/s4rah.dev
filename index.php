@@ -146,13 +146,32 @@ li:hover img {
         <a href="https://designkitchen.dev/" class="hover-link">Design & Development Services</a>
         <img src="dk.png" alt="Hover Image" class="hover-image">
     </li>  
-  <li><a href="https://urpfp.com/">Ur new PFP!</a></li>
-  <li><a href="https://chefsarah.ca/">Food Blog</a></li>
-  <li><a href="https://evcomech.com/">Plumbing Services</a></li>
-  <li><a href="https://webchef.dev/">My Desktop</a></li>
-  <li><a href="https://autism.casa/">Autism Blog</a></li>
-  <li><a href="https://s4rah.com">My Clothing Designs</a></li>
-  <li><a href="https://www.amazon.com/Gluten-Free-Deliciously-Private-Mouthwatering-Cuisine/dp/B0CH25NF5F/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.obgk0uBMH5SN2PDJsJhUHXkia_TeHIYaE3xvD7jch24sB3_RdjY8Lfh1OgwaKylzDZudM3nRcUHEQUooGpW_6BsfNtBjFgRQwfUJtf235RDSJbPvXmmR2BtcERBO9YdFWQc3ffUzvUw2Wa4UdajLgrpJ2Qg32_k3OI6OROuK-puVm3nUDmZU7l6sem7a_CPYVwodQAhw4CCgOwOhDoK_6CzvHo4rYWJfX57AwIMxMok.uY4ynZI8RDoAFg5Wi2WLvpn1KKD_8Eiyk0dwu7dNdhE&qid=1727224235&sr=8-1">My Cookbook</a></li>
+    <li>
+        <a href="https://urpfp.com/">Ur new PFP!</a>
+        <img src="pfp.png" alt="UrPFP.com" class="hover-image">
+    </li> 
+    <li>
+        <a href="https://chefsarah.ca/">Food Blog</a>
+        <img src="chfsrh.png" alt="chefsarah.ca" class="hover-image">
+    </li> 
+    <li>
+        <a href="https://evcomech.com/">Plumbing Services</a>
+        <img src="evco.png" alt="evcomech.com" class="hover-image">
+    </li> 
+    <li>
+        <a href="https://webchef.dev/">My Desktop</a>
+        <img src="desktop.png" alt="webchef.dev" class="hover-image">
+    </li> 
+    <li>
+        <a href="https://s4rah.com">My Clothing Designs</a>
+        <img src="clothes.png" alt="s4rah.com" class="hover-image">
+    </li> 
+    <li>
+        <a href="https://www.amazon.com/Gluten-Free-Deliciously-Private-Mouthwatering-Cuisine/dp/B0CH25NF5F/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.obgk0uBMH5SN2PDJsJhUHXkia_TeHIYaE3xvD7jch24sB3_RdjY8Lfh1OgwaKylzDZudM3nRcUHEQUooGpW_6BsfNtBjFgRQwfUJtf235RDSJbPvXmmR2BtcERBO9YdFWQc3ffUzvUw2Wa4UdajLgrpJ2Qg32_k3OI6OROuK-puVm3nUDmZU7l6sem7a_CPYVwodQAhw4CCgOwOhDoK_6CzvHo4rYWJfX57AwIMxMok.uY4ynZI8RDoAFg5Wi2WLvpn1KKD_8Eiyk0dwu7dNdhE&qid=1727224235&sr=8-1">My Cookbook</a>
+        <img src="cookbook.png" alt="cookbook" class="hover-image">
+    </li> 
+
+
 </ul>
 
 
