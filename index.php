@@ -96,7 +96,7 @@ li {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s;
-    position: relative; /* Ensure positioning context for the image */
+    position: relative;
 }
 
 li:hover {
@@ -108,16 +108,11 @@ li:hover {
 
 .hover-image {
     display: none;
-    position: absolute;
-    top: 100%; /* Position the image below the li */
-    left: 0;
-    max-width: 150px; /* Set an appropriate size for the image */
+    position: fixed; 
+    max-width: 150px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-li:hover .hover-image {
-    display: block;
+    pointer-events: none; 
 }
 
 
@@ -143,7 +138,7 @@ li:hover .hover-image {
 <ul>
     <li>
         <a href="https://designkitchen.dev/" class="hover-link">Design & Development Services</a>
-        <img src="dk.jpg" alt="Hover Image" class="hover-image">
+        <img src="dk.png" alt="Hover Image" class="hover-image">
     </li>  
   <li><a href="https://urpfp.com/">Ur new PFP!</a></li>
   <li><a href="https://chefsarah.ca/">Food Blog</a></li>
@@ -170,5 +165,22 @@ li:hover .hover-image {
     </div>
 
     <script src="./oneko.js"></script>
+    <script>
+      const hoverLink = document.querySelector('.hover-link');
+const hoverImage = document.querySelector('.hover-image');
+
+hoverLink.addEventListener('mouseenter', () => {
+    hoverImage.style.display = 'block';
+});
+
+hoverLink.addEventListener('mousemove', (e) => {
+    hoverImage.style.left = e.pageX + 20 + 'px'; // Position image 20px to the right of the cursor
+    hoverImage.style.top = e.pageY + 20 + 'px';  // Position image 20px below the cursor
+});
+
+hoverLink.addEventListener('mouseleave', () => {
+    hoverImage.style.display = 'none';
+});
+</script>
   </body>
 </html>
