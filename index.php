@@ -91,19 +91,35 @@ body {
         padding-bottom: 20px;
       }
 
-      li {
-        background: rgba(255, 255, 255, 0.5);
-        padding: 20px;
-        border-radius: 8px;
-        transition: transform 0.3s;
-      }
+li {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    position: relative; /* Ensure positioning context for the image */
+}
 
-      li:hover {
-        transform: scale(1.05); 
-        background: rgba(255, 255, 255, 0.8);
-        color: black;
-        font-weight: bold;
-      }
+li:hover {
+    transform: scale(1.05); 
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-weight: bold;
+}
+
+.hover-image {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position the image below the li */
+    left: 0;
+    max-width: 150px; /* Set an appropriate size for the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li:hover .hover-image {
+    display: block;
+}
+
 
       .counter {
         font-family: "Courier New", monospace;
@@ -125,7 +141,10 @@ body {
     <img src="sarah500.png" alt="Sarah's head" />
     <div class="name">These are my links:</div>
 <ul>
-  <li><a href="https://designkitchen.dev/">Design & Development Services</a></li>
+    <li>
+        <a href="https://designkitchen.dev/" class="hover-link">Design & Development Services</a>
+        <img src="dk.jpg" alt="Hover Image" class="hover-image">
+    </li>  
   <li><a href="https://urpfp.com/">Ur new PFP!</a></li>
   <li><a href="https://chefsarah.ca/">Food Blog</a></li>
   <li><a href="https://evcomech.com/">Plumbing Services</a></li>
