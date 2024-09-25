@@ -95,24 +95,30 @@ li {
     background: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 8px;
-    transition: transform 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
     position: relative;
 }
 
 li:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     background: rgba(255, 255, 255, 0.8);
     color: black;
     font-weight: bold;
 }
 
+li:hover img {
+    display: block;
+}
+
 .hover-image {
     display: none;
-    position: fixed; 
-    max-width: 150px; 
+    position: absolute; /* Align it relative to the parent <li> */
+    bottom: 100%; /* Position it above the link */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 150px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    pointer-events: none; 
 }
 
 
@@ -165,26 +171,6 @@ li:hover {
     </div>
 
     <script src="./oneko.js"></script>
-    <script>
-const hoverLinks = document.querySelectorAll('.hover-link'); // Select all links with the class hover-link
-const hoverImage = document.querySelector('.hover-image');   // Keep one hover image
-
-hoverLinks.forEach(link => {
-    link.addEventListener('mouseenter', () => {
-        hoverImage.style.display = 'block';
-    });
-
-    link.addEventListener('mousemove', (e) => {
-        hoverImage.style.left = e.pageX + 20 + 'px'; // Position image 20px to the right of the cursor
-        hoverImage.style.top = e.pageY + 20 + 'px';  // Position image 20px below the cursor
-    });
-
-    link.addEventListener('mouseleave', () => {
-        hoverImage.style.display = 'none';
-    });
-});
-
-
-</script>
+   
   </body>
 </html>
