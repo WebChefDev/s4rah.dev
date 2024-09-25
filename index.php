@@ -67,6 +67,8 @@ body {
       .greeting {
         font-size: 2rem;
         padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
       }
 
       .name {
@@ -111,25 +113,27 @@ body {
         padding: 10px;
         border: 2px solid #00ff00;
         display: inline-block;
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
     <div class="greeting">Hello and welcome to</div>
     <h1>S4RAH.dev</h1>
-    <div class="name">I'm Sarahh</div>
+    <div class="name">I'm Sarah</div>
     <img src="sarah500.png" alt="Sarah's head" />
 
-    <ul>
-      <li>Design & Development Serves</li>
-      <li>Ur new PFP!</li>
-      <li>Food Blog</li>
-      <li>Plumbing Services</li>
-      <li>My Desktop</li>
-      <li>Item 6</li>
-      <li>Item 7</li>
-      <li>Item 8</li>
-    </ul>
+<ul>
+  <li><a href="https://designkitchen.dev/">Design & Development Services</a></li>
+  <li><a href="https://urpfp.com/">Ur new PFP!</a></li>
+  <li><a href="https://chefsarah.ca/">Food Blog</a></li>
+  <li><a href="https://evcomech.com/">Plumbing Services</a></li>
+  <li><a href="https://webchef.dev/">My Desktop</a></li>
+  <li><a href="https://autism.casa/">Autism Blog</a></li>
+  <li><a href="https://s4rah.com">My Clothing Designs</a></li>
+  <li><a href="https://www.amazon.com/Gluten-Free-Deliciously-Private-Mouthwatering-Cuisine/dp/B0CH25NF5F/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.obgk0uBMH5SN2PDJsJhUHXkia_TeHIYaE3xvD7jch24sB3_RdjY8Lfh1OgwaKylzDZudM3nRcUHEQUooGpW_6BsfNtBjFgRQwfUJtf235RDSJbPvXmmR2BtcERBO9YdFWQc3ffUzvUw2Wa4UdajLgrpJ2Qg32_k3OI6OROuK-puVm3nUDmZU7l6sem7a_CPYVwodQAhw4CCgOwOhDoK_6CzvHo4rYWJfX57AwIMxMok.uY4ynZI8RDoAFg5Wi2WLvpn1KKD_8Eiyk0dwu7dNdhE&qid=1727224235&sr=8-1">My Cookbook</a></li>
+</ul>
+
 
 
     <div class="counter">
