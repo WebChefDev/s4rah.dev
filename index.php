@@ -166,21 +166,25 @@ li:hover {
 
     <script src="./oneko.js"></script>
     <script>
-      const hoverLink = document.querySelector('.hover-link');
-const hoverImage = document.querySelector('.hover-image');
+const hoverLinks = document.querySelectorAll('.hover-link'); // Select all links with the class hover-link
+const hoverImage = document.querySelector('.hover-image');   // Keep one hover image
 
-hoverLink.addEventListener('mouseenter', () => {
-    hoverImage.style.display = 'block';
+hoverLinks.forEach(link => {
+    link.addEventListener('mouseenter', () => {
+        hoverImage.style.display = 'block';
+    });
+
+    link.addEventListener('mousemove', (e) => {
+        hoverImage.style.left = e.pageX + 20 + 'px'; // Position image 20px to the right of the cursor
+        hoverImage.style.top = e.pageY + 20 + 'px';  // Position image 20px below the cursor
+    });
+
+    link.addEventListener('mouseleave', () => {
+        hoverImage.style.display = 'none';
+    });
 });
 
-hoverLink.addEventListener('mousemove', (e) => {
-    hoverImage.style.left = e.pageX + 20 + 'px'; // Position image 20px to the right of the cursor
-    hoverImage.style.top = e.pageY + 20 + 'px';  // Position image 20px below the cursor
-});
 
-hoverLink.addEventListener('mouseleave', () => {
-    hoverImage.style.display = 'none';
-});
 </script>
   </body>
 </html>
