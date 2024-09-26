@@ -1,3 +1,12 @@
+/*
+Whooooooooa there looking at my source code are you??
+At least buy me dinner first!! 
+
+LOL jk
+
+Thanks for stopping by!
+*/
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
