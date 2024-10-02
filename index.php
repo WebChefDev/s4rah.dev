@@ -175,13 +175,14 @@ li:hover img {
         <a href="https://evcomech.com/">Plumbing Services</a>
         <img src="evco.png" alt="evcomech.com" class="hover-image">
     </li> 
+<!--
     <li>
         <a href="https://webchef.dev/">My Desktop</a>
         <img src="desktop.png" alt="webchef.dev" class="hover-image">
     </li> 
 
 </ul>
-
+    -->
 
 
     <div class="counter">
